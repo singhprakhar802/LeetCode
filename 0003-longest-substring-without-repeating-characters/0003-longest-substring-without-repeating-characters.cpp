@@ -28,7 +28,6 @@ public:
                     j++;
                 }
                 ump[s[i]]=i;
-                ans = max(ans,(i-j+1));
                 i++;
             }
             else
